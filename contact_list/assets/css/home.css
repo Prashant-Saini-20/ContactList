@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background: linear-gradient(45deg,rgb(5, 0, 170),rgb(106, 0, 106));
+    color: white;
+}
+::placeholder {
+    color: #ffffffcc;
+  }
+
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: #ffffffcc;
+    font-family: sans-serif;
+    font-size: 55;
+}
+
+
+#list{
+    list-style: none;
+}
+#list-item-container{
+    margin: auto;
+    margin-bottom: 5px;
+    width: 36rem;
+    height: 2rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+#each-entry:hover{
+    background: linear-gradient(90deg,rgb(128, 0, 128),rgb(0, 0, 168));
+}
+#each-entry{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(214, 214, 214, .6);
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+a{
+    color: rgba(214, 214, 214, 0.7);
+}
+#delete-button a:hover{
+    color: #ffffffe0;
+}
+#delete-button{
+    margin-top: 15px;
+    margin-left: 14px;
+    color: rgb(214, 214, 214, .6);
+}
+
+
+
+#contact-name{
+   height: 2rem;
+   width: 50%;
+   font-size: 20px;
+   padding-left: 10px;
+   letter-spacing: 1px;
+}
+#contact-no{
+    height: 2rem;
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+
+
+#input-form{
+    margin: auto;
+    width: 544.5px;
+    height: 2rem;
+    display:flex;
+    justify-content:space-between;
+    padding-left: 9px;
+}
+
+
+
+#input-name{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    letter-spacing: 1px;
+}
+#input-phone{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    letter-spacing: 1px;
+}
+
+
+#submit-button{
+    background-color: rgb(214, 214, 214, .6);
+    color: white;
+    border: 0px;
+    letter-spacing: 1px;
+}
